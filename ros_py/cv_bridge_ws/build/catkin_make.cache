@@ -1,0 +1,2 @@
+vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/rpf/cv_bridge_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rpf/cv_bridge_ws/install -G Unix Makefiles

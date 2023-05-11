@@ -1,0 +1,600 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8b213/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b213.dir/build.make CMakeFiles/cmTC_8b213.dir/build
+make[1]: 进入目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8b213.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b213.dir/testCCompiler.c.o   -c /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+ # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+   ^~~~~
+CMakeFiles/cmTC_8b213.dir/build.make:68: recipe for target 'CMakeFiles/cmTC_8b213.dir/testCCompiler.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8b213.dir/testCCompiler.c.o] Error 1
+make[1]: 离开目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Makefile:124: recipe for target 'cmTC_8b213/fast' failed
+make: *** [cmTC_8b213/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98689/fast && /usr/bin/make  -f CMakeFiles/cmTC_98689.dir/build.make CMakeFiles/cmTC_98689.dir/build
+make[1]: 进入目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_98689.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98689.dir/testCCompiler.c.o   -c /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+ # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+   ^~~~~
+CMakeFiles/cmTC_98689.dir/build.make:68: recipe for target 'CMakeFiles/cmTC_98689.dir/testCCompiler.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_98689.dir/testCCompiler.c.o] Error 1
+make[1]: 离开目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Makefile:124: recipe for target 'cmTC_98689/fast' failed
+make: *** [cmTC_98689/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+ # error "A C++ compiler has been selected for C."
+   ^~~~~
+CMakeCCompilerId.c:321:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:614:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                                                                ^~~
+CMakeCCompilerId.c:615:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+                                                            ^~~
+CMakeCCompilerId.c:635:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   "INFO" ":" "dialect_default[" C_DIALECT "]";
+                                           ^~~
+CMakeCCompilerId.c:643:10: error: cannot declare ‘::main’ to be a global variable
+ int main(argc, argv) int argc; char *argv[];
+          ^~~~
+CMakeCCompilerId.c:643:10: error: ‘argc’ was not declared in this scope
+CMakeCCompilerId.c:643:16: error: ‘argv’ was not declared in this scope
+ int main(argc, argv) int argc; char *argv[];
+                ^~~~
+CMakeCCompilerId.c:643:20: error: expression list treated as compound expression in initializer [-fpermissive]
+ int main(argc, argv) int argc; char *argv[];
+                    ^
+CMakeCCompilerId.c:643:38: error: storage size of ‘argv’ isn’t known
+ int main(argc, argv) int argc; char *argv[];
+                                      ^~~~
+CMakeCCompilerId.c:647:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1b7f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1b7f.dir/build.make CMakeFiles/cmTC_d1b7f.dir/build
+make[1]: 进入目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d1b7f.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_d1b7f.dir/testCCompiler.c.o   -c /home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+ # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+   ^~~~~
+CMakeFiles/cmTC_d1b7f.dir/build.make:68: recipe for target 'CMakeFiles/cmTC_d1b7f.dir/testCCompiler.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d1b7f.dir/testCCompiler.c.o] Error 1
+make[1]: 离开目录“/home/rpf/rpf_code/YOLOX/demo/TensorRT/cpp/CMakeFiles/CMakeTmp”
+Makefile:124: recipe for target 'cmTC_d1b7f/fast' failed
+make: *** [cmTC_d1b7f/fast] Error 2
+
+
+
